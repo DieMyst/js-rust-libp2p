@@ -31,12 +31,6 @@ for Network<TSubstream>
     fn inject_event(&mut self, _event: PingEvent) {}
 }
 
-impl<TSubstream: AsyncRead + AsyncWrite> NetworkBehaviourEventProcess<PlainProtocol>
-for Network<TSubstream>
-{
-    fn inject_event(&mut self, _event: PlainProtocol) {}
-}
-
 impl<Substream: AsyncRead + AsyncWrite> NetworkBehaviourEventProcess<BehaviourEvent> for Network<Substream> {
     fn inject_event(&mut self, event: BehaviourEvent) {
         match event {

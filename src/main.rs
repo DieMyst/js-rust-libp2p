@@ -1,7 +1,6 @@
 use server::serve;
 
 mod server;
-mod plain;
 mod behaviour;
 
 fn main() {
