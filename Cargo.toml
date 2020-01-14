@@ -1,5 +1,5 @@
 [package]
-name = "arqada"
+name = "js-rust-libp2p"
 version = "0.1.0"
 authors = ["fluencelabs"]
 edition = "2018"
