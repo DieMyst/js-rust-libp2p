@@ -17,7 +17,7 @@ fnv = "1.0.6"
 
 void = "1.0.2"
 names = "0.11"
-tokio = "0.1"
+tokio = "1.8"
 tokio-stdin-stdout = "0.1"
 
 env_logger = "0.7.1"
